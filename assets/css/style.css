@@ -1,0 +1,156 @@
+/* sets default element styling */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* sets a standard for link styling */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* sets default font size for standard text */
+p {
+    font-size: 16px;
+}
+
+/* sets background color for the website*/
+body {
+    background-color: #d9dcd6;
+}
+
+/* sets padding and text attributes for the header section */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* sets the font size and position type for the website title */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* changes the color of the "seo" portion of the website title */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* sets attributes for the webiste navigation links */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* makes the navigation links display horizontally */
+.header nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* creates an image and sets size attributes */
+.main-image {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* sets how to display the main content of the page */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* separates the different sections of the main content */
+.content section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* sets height for every picture in each main section */
+.content img {
+    max-height: 200px;
+}
+
+/* sets size and position for the main section headers */
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* sets default font size for standard text */
+p {
+    font-size: 16px;
+}
+
+/* sets the element's position to the left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* sets the element's position to the right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* sets styling attributes for the right side panel */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* separates each section of the side panel */
+.benefits section {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* sets the position of each section header of the side panel*/
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* sets sizing for every image in each section of the side panel*/
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* sets padding and text attributes for the footer of the website */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* sets size for the header of the footer */
+.footer h2 {
+    font-size: 20px;
+}
